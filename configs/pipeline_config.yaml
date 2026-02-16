@@ -1,0 +1,4 @@
+pipeline:
+  enable_ingestion: true
+  enable_retrieval: true
+  enable_evaluation: true

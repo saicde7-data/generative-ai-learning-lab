@@ -1,0 +1,15 @@
+[project]
+name = "generative-ai-learning-lab"
+version = "0.1.0"
+description = "End-to-end Generative AI learning and experimentation hub"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "generative-ai-learning-lab contributors" }]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
